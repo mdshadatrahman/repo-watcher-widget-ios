@@ -9,8 +9,9 @@ import WidgetKit
 import SwiftUI
 
 @main
-struct RepoWatcherWidgetBundle: WidgetBundle {
+struct RepoWatcherWidgets: WidgetBundle {
     var body: some Widget {
-        RepoWatcherWidget()
+        CompactRepoWidget()
+        ContributorWidget()
     }
 }
