@@ -29,10 +29,20 @@ class NetworkManager {
         }
         
         do {
-            let repo = try decoder.decode(Repository.self, from: data)
-            return repo
+            let repo = try decoder.decode(Repository.CodingData.self, from: data)
+            return repo.repo
         } catch {
             throw NetworkError.invalidRepoData
+        }
+    }
+    
+    func downloadImageData(from urlString: String) async -> Data? {
+        guard let url = URL(string: urlString) else { return nil }
+        do {
+            let (data, _) = try await URLSession.shared.data(from: url)
+            return data
+        } catch {
+            return nil
         }
     }
 }
@@ -46,4 +56,5 @@ enum NetworkError: Error {
 
 enum RepoURL {
     static let swiftNews = "https://api.github.com/repos/sallen0400/swift-news"
+    static let stepTracker = "https://api.github.com/repos/mdshadatrahman/step-tracker"
 }
