@@ -50,6 +50,7 @@ struct RepoMediumView: View {
                     .minimumScaleFactor(0.6)
                     .lineLimit(1)
                     .foregroundStyle(daysSinceLastActivity > 7 ? .pink : .green)
+                    .contentTransition(.numericText())
                 
                 Text("days ago")
                     .font(.caption2)
@@ -81,6 +82,7 @@ fileprivate struct StatLabel: View {
         Label {
             Text("\(value)")
                 .font(.footnote)
+                .contentTransition(.numericText())
         } icon: {
             Image(systemName: systemImageName)
                 .foregroundColor(.green)

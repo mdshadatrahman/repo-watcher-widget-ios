@@ -33,10 +33,8 @@ struct MockData {
                                          pushedAt: "2024-07-09T18:19:30Z",
                                          avatarData: Data(),
                                          contributors: [
-                                             Contributor(login: "Sean Allen", avatarUrl: "", contributions: 12, avatarData: Data()),
-                                             Contributor(login: "Michael Jordan", avatarUrl: "", contributions: 12, avatarData: Data()),
-                                             Contributor(login: "Steph Curry", avatarUrl: "", contributions: 12, avatarData: Data()),
-                                             Contributor(login: "LeBron James", avatarUrl: "", contributions: 12, avatarData: Data()),
+                                             Contributor(login: "Shadat Rahman", avatarUrl: "", contributions: 1, avatarData: Data()),
+                                             Contributor(login: "Ann Marie", avatarUrl: "", contributions: 1211, avatarData: Data()),
                                          ]
     )
 }
