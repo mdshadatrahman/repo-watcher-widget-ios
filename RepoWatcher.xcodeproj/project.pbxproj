@@ -31,6 +31,9 @@
 		11911AF32C850C5400937E3F /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 11911AF12C850C5300937E3F /* .env */; };
 		11911AF52C850E3A00937E3F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 11911AF42C850E3A00937E3F /* .gitignore */; };
 		11911AF62C850E3A00937E3F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 11911AF42C850E3A00937E3F /* .gitignore */; };
+		11CF0A922C8865C000AD7933 /* ContributorMediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF0A912C8865C000AD7933 /* ContributorMediumView.swift */; };
+		11CF0A942C8867B400AD7933 /* Contributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF0A932C8867B400AD7933 /* Contributor.swift */; };
+		11CF0A952C8867B400AD7933 /* Contributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF0A932C8867B400AD7933 /* Contributor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,8 @@
 		11911AEF2C85057E00937E3F /* AuthenticationContextProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationContextProvider.swift; sourceTree = "<group>"; };
 		11911AF12C850C5300937E3F /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		11911AF42C850E3A00937E3F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		11CF0A912C8865C000AD7933 /* ContributorMediumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorMediumView.swift; sourceTree = "<group>"; };
+		11CF0A932C8867B400AD7933 /* Contributor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contributor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +140,7 @@
 				1138AA4A2C7F98A00096FCC1 /* Preview Content */,
 				11911AED2C8500EC00937E3F /* LoginView.swift */,
 				11911AEF2C85057E00937E3F /* AuthenticationContextProvider.swift */,
+				11CF0A932C8867B400AD7933 /* Contributor.swift */,
 			);
 			path = RepoWatcher;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 				1138AA5F2C7F98C20096FCC1 /* CompactRepoWidget.swift */,
 				11911AE82C84FAAF00937E3F /* ContributorWidget.swift */,
 				11911AE22C84E0EA00937E3F /* RepoMediumView.swift */,
+				11CF0A912C8865C000AD7933 /* ContributorMediumView.swift */,
 				1138AA612C7F98C40096FCC1 /* Assets.xcassets */,
 				1138AA632C7F98C40096FCC1 /* Info.plist */,
 				11911AE42C84F25600937E3F /* MockData.swift */,
@@ -278,6 +285,7 @@
 			files = (
 				1138AA702C7FA60B0096FCC1 /* NetworkManager.swift in Sources */,
 				1138AA472C7F989F0096FCC1 /* ContentView.swift in Sources */,
+				11CF0A942C8867B400AD7933 /* Contributor.swift in Sources */,
 				11911AF02C85057E00937E3F /* AuthenticationContextProvider.swift in Sources */,
 				1138AA452C7F989F0096FCC1 /* RepoWatcherApp.swift in Sources */,
 				11911AEE2C8500EC00937E3F /* LoginView.swift in Sources */,
@@ -290,10 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				11911AE92C84FAAF00937E3F /* ContributorWidget.swift in Sources */,
+				11CF0A952C8867B400AD7933 /* Contributor.swift in Sources */,
 				1138AA712C7FA60B0096FCC1 /* NetworkManager.swift in Sources */,
 				11911AE52C84F25600937E3F /* MockData.swift in Sources */,
 				11911AE32C84E0EA00937E3F /* RepoMediumView.swift in Sources */,
 				1138AA602C7F98C20096FCC1 /* CompactRepoWidget.swift in Sources */,
+				11CF0A922C8865C000AD7933 /* ContributorMediumView.swift in Sources */,
 				1138AA5E2C7F98C20096FCC1 /* WidgetBundle.swift in Sources */,
 				1138AA6E2C7F9E080096FCC1 /* Repository.swift in Sources */,
 			);
